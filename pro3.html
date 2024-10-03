@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>RGB color generator</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="pro3.css">
+    </head>
+    <body>
+        <div class="container">
+            <h1>RGB color Generator</h1>
+            <div class="colorbox" id="colorbox"></div>
+                <div class="sliders">
+                    <div class="slider">
+                        <label for="redslider">Red:</label>
+                        <input type="range" id="redslider" min="0" max="255">
+                        <span id="redvalue">0</span>
+                    </div>
+                    <div class="slider">
+                        <label for="greenslider">Green:</label>
+                        <input type="range" id="greenslider" min="0" max="255">
+                        <span id="greenvalue">0</span>
+                    </div>
+                    <div class="slider">
+                        <label for="blueslider">Blue:</label>
+                        <input type="range" id="blueslider" min="0" max="255">
+                        <span id="bluevalue">0</span>
+                    </div>
+            </div>
+            <div class="button-container">
+                <button id="copybutton">Copy RGB value</button>
+                <div id="inputtype" class="input-type-value"></div>
+            </div>
+        </div>
+        <script src="pro3.js"></script>
+    </body>
+</html>
